@@ -3,8 +3,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 OWNERS = "7668520999"
-from Taanya import app
-from Taanya.utils.database import add_served_chat, get_assistant
+from AnonXMusic import app
+from AnonXMusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
