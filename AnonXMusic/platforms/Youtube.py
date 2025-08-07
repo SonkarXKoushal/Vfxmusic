@@ -14,7 +14,7 @@ from AnonXMusic.utils.formatters import time_to_seconds
 
 # ============== CONFIGURE YOUR API ==============
 YOUR_API_URL = "http://46.38.237.240:8000"
-YOUR_API_KEY = "fc6c10991e3948b09570d2e251661437"            # <--- Change me!
+YOUR_API_KEY = "ishq_mein"            # <--- Change me!
 # ================================================
 
 async def get_file_from_api(video_id, audio=True):
