@@ -2,7 +2,7 @@
 import math
 from pyrogram.types import InlineKeyboardButton
 from AnonXMusic.utils.formatters import time_to_seconds
-from config import BOT_USERNAME, SUPPORT_CHAT, SUPPORT_CHANNEL
+from config import SUPPORT_CHAT, SUPPORT_CHANNEL
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
@@ -57,7 +57,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                url=f"https://t.me/{app.username}?startgroup=true"
             )
         ],
         [
